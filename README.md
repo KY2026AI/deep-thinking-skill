@@ -29,9 +29,10 @@
 也可以在本机命令行中运行：
 
 ```bash
-python ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
+python3 ~/.codex/skills/.system/skill-installer/scripts/install-skill-from-github.py \
   --repo KY2026AI/deep-thinking-skill \
-  --path skills/deep-thinking
+  --path skills/deep-thinking \
+  --method git
 ```
 
 安装完成后，重启 Codex，让新技能生效。
